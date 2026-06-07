@@ -1,4 +1,41 @@
+# Node modules
+**/node_modules/
 
-# local vite/build
+# Logs
+*.log
+npm-debug.log*
+api.log
+dashboard.log
+
+# Wallet identities
+exam-paper-api/wallet/
+
+# Environment variables
+.env
+.env.*
+
+# Fabric generated crypto material
+fabric-samples/test-network/organizations/
+fabric-samples/test-network/system-genesis-block/
+fabric-samples/test-network/channel-artifacts/
+
+# Docker volumes (if generated)
+fabric-samples/test-network/ledgerBackup/
+
+# Build folders
+exam-paper-dashboard/dist/
+
+# Vite cache
 exam-paper-dashboard/.vite/
-# ignore large worktrees
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
