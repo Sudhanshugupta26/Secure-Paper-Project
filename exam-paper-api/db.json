@@ -1,0 +1,37 @@
+{
+  "centers": [
+    {
+      "id": "CENTER_01",
+      "name": "Lucknow Center",
+      "location": "Lucknow",
+      "status": "APPROVED",
+      "printKey": "KEY123"
+    },
+    {
+      "id": "CENTER_02",
+      "name": "Kanpur Center",
+      "location": "Kanpur",
+      "status": "APPROVED",
+      "printKey": "KEY456"
+    },
+    {
+      "id": "CENTER_03",
+      "name": "Delhi Center",
+      "location": "Delhi",
+      "status": "APPROVED",
+      "printKey": "AUTO_pm47pc"
+    }
+  ],
+  "applications": [
+    {
+      "id": "CENTER_03",
+      "name": "Delhi Center",
+      "location": "Delhi",
+      "status": "APPROVED",
+      "votes": [
+        "APPROVE",
+        "APPROVE"
+      ]
+    }
+  ]
+}
