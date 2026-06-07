@@ -1,0 +1,5 @@
+
+# local vite/build
+exam-paper-dashboard/.vite/
+# ignore large worktrees
+fabric-samples/
